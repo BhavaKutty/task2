@@ -4,26 +4,23 @@
     <meta charset="utf-8">
     <title></title>
   </head>
-  <body><center>
-    <video src="Jack Ma- Attitude is Everything (Best Motivational Speech).mp4" autoplay controls id="vedio">
+  <body>
+    <video src="Jack Ma- Attitude is Everything (Best Motivational Speech).mp4" autoplay controls id="video">
     </video>
-
-        <button type="button" name="button"
-          onclick="play()">Play</button>
-          <button type="button" name="button"
-            onclick="pause()">Pause</button>
+<center>
+        <button type="button" name="button" onclick="play()">Play</button>
+        <button type="button" name="button" onclick="pause()">Pause</button>
+<center>
     <br>
     <br>
     <br>
 
     <audio src="Inkem Inkem Inkem Kaavaale-Naasongs.me.mp3" autoplay controls id="audio">
     </audio>
-
-        <button type="button" name="button"
-          onclick="play()">Play</button>
-          <button type="button" name="button"
-            onclick="pause()">Pause</button>
-          </center>
+<center>
+        <button type="button" name="button"  onclick="play1()">Play</button>
+          <button type="button" name="button" onclick="pause1()">Pause</button>
+</center>
     </body>
 </html>
 
@@ -36,14 +33,12 @@ function pause(){
   var vid=document.getElementById('video');
   vid.pause();
 }
-</script>
 
-<script type="text/javascript">
-function play(){
+function play1(){
   var aud=document.getElementById('audio');
   aud.play();
 }
-function pause(){
+function pause1(){
   var aud=document.getElementById('audio');
   aud.pause();
 }
